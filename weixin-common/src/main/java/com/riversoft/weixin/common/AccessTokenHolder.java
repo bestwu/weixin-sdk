@@ -17,7 +17,7 @@ import java.io.IOException;
 
 /**
  * AccessToken holder
- * @borball on 8/14/2016.
+ * @author borball on 8/14/2016.
  */
 public abstract class AccessTokenHolder {
 

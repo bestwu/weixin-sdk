@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @borball on 12/29/2016.
+ * @author borball on 12/29/2016.
  */
 public class Signatures {
 

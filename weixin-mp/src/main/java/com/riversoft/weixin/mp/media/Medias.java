@@ -23,7 +23,7 @@ import java.util.Map;
  * 3、素材的格式大小等要求与公众平台官网一致。
  * 具体是，图片大小不超过2M，支持bmp/png/jpeg/jpg/gif格式，
  * 语音大小不超过5M，长度不超过60秒，支持mp3/wma/wav/amr格式
- * <p/>
+ *
  * Created by exizhai on 11/12/2015.
  */
 public class Medias {

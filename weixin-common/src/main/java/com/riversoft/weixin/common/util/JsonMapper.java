@@ -163,8 +163,6 @@ public class JsonMapper {
      * @param jsons
      * @param clazz
      * @param <T>
-     * @return
-     * @throws IOException
      */
     public <T> List<T> fromJsons(String jsons, Class<T> clazz) throws IOException {
         if (jsons == null || jsons.trim().length() == 0) {

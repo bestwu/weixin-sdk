@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 /**
  * SHA1 class
- * <p/>
+ *
  * 计算公众平台的消息签名接口.
  */
 public class SHA1 {
@@ -23,7 +23,6 @@ public class SHA1 {
      *
      * @param array     字符串
      * @return 安全签名
-     * @throws AesException
      */
     public static String getSHA1(String... array) throws AesException {
         StringBuffer sb = new StringBuffer();

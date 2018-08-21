@@ -19,7 +19,7 @@ import java.io.StringReader;
 
 /**
  * XMLParse class
- * <p/>
+ *
  * 提供提取消息格式中的密文及生成回复消息格式的接口.
  */
 class XMLParse {
@@ -29,7 +29,6 @@ class XMLParse {
      *
      * @param xmltext 待提取的xml字符串
      * @return 提取出的加密消息字符串
-     * @throws AesException
      */
     public static Object[] extract(String xmltext) throws AesException {
         Object[] result = new Object[3];

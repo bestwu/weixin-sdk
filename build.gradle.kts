@@ -10,6 +10,7 @@ allprojects {
     apply {
         plugin("java")
         plugin("idea")
+        plugin("cn.bestwu.publish")
     }
 
     group = "cn.com.riversoft"
