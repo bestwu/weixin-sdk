@@ -13,7 +13,7 @@ allprojects {
         plugin("com.jfrog.artifactory")
     }
 
-    group = "cn.com.riversoft"
+    group = "cn.bestwu"
     version = "0.9.7-SNAPSHOT"
 
 
