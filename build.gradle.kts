@@ -6,11 +6,11 @@ plugins {
 }
 
 allprojects {
-
     apply {
         plugin("java")
         plugin("idea")
         plugin("cn.bestwu.publish")
+        plugin("com.jfrog.artifactory")
     }
 
     group = "cn.com.riversoft"

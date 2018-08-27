@@ -1,16 +1,7 @@
 rootProject.name = 'weixin-sdk'
-include ':weixin-parent'
-include ':weixin-parent:weixin-qydev'
-include ':weixin-parent:weixin-mp'
-include ':weixin-parent:weixin-common'
-include ':weixin-parent:weixin-pay'
-include ':weixin-parent:weixin-open'
-include ':weixin-parent:weixin-app'
-
-project(':weixin-parent').projectDir = "$rootDir/weixin-parent" as File
-project(':weixin-parent:weixin-qydev').projectDir = "$rootDir/weixin-qydev" as File
-project(':weixin-parent:weixin-mp').projectDir = "$rootDir/weixin-mp" as File
-project(':weixin-parent:weixin-common').projectDir = "$rootDir/weixin-common" as File
-project(':weixin-parent:weixin-pay').projectDir = "$rootDir/weixin-pay" as File
-project(':weixin-parent:weixin-open').projectDir = "$rootDir/weixin-open" as File
-project(':weixin-parent:weixin-app').projectDir = "$rootDir/weixin-app" as File
+include 'weixin-qydev'
+include 'weixin-mp'
+include 'weixin-common'
+include 'weixin-pay'
+include 'weixin-open'
+include 'weixin-app'

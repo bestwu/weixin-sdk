@@ -1,6 +1,6 @@
 description = "weixin sdk app"
 dependencies {
-    compile(project(":weixin-parent:weixin-common"))
+    compile(project(":weixin-common"))
     compile("com.google.guava:guava:18.0")
     compile("com.fasterxml.jackson.core:jackson-databind:2.9.0")
     compile("com.fasterxml.jackson.core:jackson-annotations:2.9.0")

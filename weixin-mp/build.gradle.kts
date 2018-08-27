@@ -1,6 +1,6 @@
 description = "weixin sdk mp"
 dependencies {
-    compile(project(":weixin-parent:weixin-common"))
+    compile(project(":weixin-common"))
     compile("org.apache.httpcomponents:fluent-hc:4.5")
     compile("org.apache.httpcomponents:httpmime:4.5")
     compile("com.google.guava:guava:18.0")
