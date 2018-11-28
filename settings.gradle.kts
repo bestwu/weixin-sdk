@@ -1,0 +1,6 @@
+include("weixin-qydev")
+include("weixin-mp")
+include("weixin-common")
+include("weixin-pay")
+include("weixin-open")
+include("weixin-app")

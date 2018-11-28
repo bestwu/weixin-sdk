@@ -22,17 +22,17 @@ allprojects {
             inheritOutputDirs = false
             isDownloadJavadoc = false
             isDownloadSources = true
-            outputDir = java.sourceSets["main"].java.outputDir
-            testOutputDir = java.sourceSets["test"].java.outputDir
+            outputDir = the<SourceSetContainer>()["main"].java.outputDir
+            testOutputDir = the<SourceSetContainer>()["test"].java.outputDir
         }
     }
+
 }
 
 subprojects {
 
     repositories {
         mavenLocal()
-
         maven("http://repo.maven.apache.org/maven2")
     }
 
