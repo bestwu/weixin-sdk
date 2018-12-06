@@ -1,8 +1,8 @@
 plugins {
     java
     idea
-    id("cn.bestwu.publish") version "0.0.24"
-    id("com.jfrog.artifactory") version "4.7.5"
+    id("cn.bestwu.publish") version "0.0.30"
+    id("com.jfrog.artifactory") version "4.8.1"
 }
 
 allprojects {
@@ -13,8 +13,8 @@ allprojects {
         plugin("com.jfrog.artifactory")
     }
 
-    group = "cn.bestwu"
-    version = "0.9.7-SNAPSHOT"
+    group = "cn.bestwu.wechat"
+    version = "0.9.7"
 
 
     idea {
